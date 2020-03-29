@@ -70,12 +70,9 @@ public class Main {
 		//----check the example below
 		tts.getMarytts().setAudioEffects(stadiumEffect.getFullEffectAsString());// + "+" + stadiumEffect.getFullEffectAsString());
 		
-		//=========================================================================
-		//===================== Now let's troll user ==============================
-		//=========================================================================
 		List<String> arrayList = Arrays.asList("hii vivek", "this is a program for text to speech", "cool this will get uploaded in repos");
 		
-		//Loop infinitely
+	// SPEAK LIST OF ARRAYS ONCE, TO REPEAT IT MORE THAN ONE TIME PLEASE INCRESE THE CONDITION TO HOW MANY TIMES YOU NEED TO INCREASE IT.
 		for (int i = 0; i < 1; i++)
 			arrayList.forEach(word -> tts.speak(word, 2.0f, false, true));
 		
