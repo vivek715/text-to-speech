@@ -19,7 +19,7 @@ import marytts.signalproc.effects.AudioEffect;
 import marytts.signalproc.effects.AudioEffects;
 
 /**
- * @author GOXR3PLUS
+ * @authorVVK
  *
  */
 public class TextToSpeech {
