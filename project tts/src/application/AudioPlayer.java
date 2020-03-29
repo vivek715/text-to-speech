@@ -20,7 +20,7 @@ import marytts.util.data.audio.StereoAudioInputStream;
 /**
  * A single Thread Audio Player Once used it has to be initialised again
  * 
- * @author GOXR3PLUS
+ * @author VVK
  *
  */
 public class AudioPlayer extends Thread {
@@ -38,27 +38,16 @@ public class AudioPlayer extends Thread {
 	private boolean exitRequested = false;
 	private float gain = 1.0f;
 	
-	/**
-	 * The status of the player
-	 * 
-	 * @author GOXR3PLUS
-	 *
-	 */
+	
 	public enum Status {
-		/**
-		 * 
-		 */
+		
 		WAITING,
-		/**
-		* 
-		*/
+		
 		PLAYING;
 	}
 	
-	/**
-	 * AudioPlayer which can be used if audio stream is to be set separately, using setAudio().
-	 *
-	 */
+//	  AudioPlayer which can be used if audio stream is to be set separately, using setAudio().
+	
 	public AudioPlayer() {
 	}
 	
